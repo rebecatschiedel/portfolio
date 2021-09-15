@@ -36,7 +36,9 @@ const AboutPage = () => (
                 to empathize with the user and create a functional product.
               </p>
               <button className="btn2 btn-primary">
-                <a href="mailto:rebecatcmg@gmail.com">Contact Me</a>
+                <a href="mailto:rebecatcmg@gmail.com">
+                  <i class="fa fa-envelope"></i>Contact Me
+                </a>
               </button>
             </div>
           </div>

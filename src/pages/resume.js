@@ -5,7 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 
-import profile from '../assets/images/profile-photo.jpeg';
+import resume from '../assets/images/resume.jpg';
+// import download from '../../public/static/Rebeca_Guedes_Resume.pdf';
 
 const AboutPage = () => (
   <Layout>
@@ -20,12 +21,11 @@ const AboutPage = () => (
 
     <section id="resume" className="about2-section bg-light">
       <div className="container">
-        <img className="img-fluid mb-3 mb-lg-0" src={profile} alt="" />
         <div className="center">
-          <a
-            href="../assets/images/Rebeca_Guedes_Resume.pdf"
-            download="Rebeca-Guedes-Portfolio"
-          >
+          <img className="resume mb-3 mb-lg-0" src={resume} alt="" />
+        </div>
+        <div className="center">
+          <a href="" download="Rebeca-Guedes-Portfolio">
             <button className="btn2 btn-primary">
               <i class="fa fa-download"></i>Download
             </button>
