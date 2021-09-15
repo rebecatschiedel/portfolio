@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import config from '../../config';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 import Header from '../components/Header';
@@ -16,13 +15,10 @@ const IndexPage = () => (
   <Layout>
     <Header />
 
-    <header className="masthead">
+    <header className="about">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">{config.heading}</h1>
-          <h2 className="text-white-50 mx-auto mt-2 mb-5">
-            {config.subHeading}
-          </h2>
+          <h1 className="mx-auto my-0 text-uppercase">Projects</h1>
         </div>
       </div>
     </header>

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Grayscale', // <title>
+  siteTitle: "Rebeca Guedes' Portfolio", // <title>
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,33 +8,23 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Rebeca Guedes',
+  subHeading:
+    'Dual-Class UI/UX Designer, Web Developer based in Vancouver, BC ',
 
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/rebecatschiedel',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://linkedin.com/in/rebeca-guedes/',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'rebecatcmg@gmail.com',
+  phone: '604-499-5875',
 };
