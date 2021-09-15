@@ -56,7 +56,8 @@ const IndexPage = () => (
                     Industry Project <br />
                     Your mental health in first place during the return to the
                     office. <br />
-                    <strong>COMING SOON!</strong>
+                    <br />
+                    <strong className="text-white">COMING SOON!</strong>
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -66,8 +67,8 @@ const IndexPage = () => (
         </div>
 
         <div className="row justify-content-center no-gutters">
-          <div className="col-lg-6">
-            <img className="img-fluid" src={redesign} alt="" />
+          <div className="col-lg-6 center">
+            <img className="img-fluid img-redesign" src={redesign} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
@@ -78,7 +79,8 @@ const IndexPage = () => (
                     Website Redesign <br />
                     Redesign of a local bakery to improve their engagement
                     during COVID-19. <br />
-                    <strong>COMING SOON!</strong>
+                    <br />
+                    <strong className="text-white">COMING SOON!</strong>
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>

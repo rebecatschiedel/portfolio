@@ -1,6 +1,6 @@
 import { Link } from 'gatsby';
 import React, { useState } from 'react';
-import config from '../../config';
+import logo from '../assets/img/website-icon.png';
 
 export default function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -12,7 +12,7 @@ export default function Header() {
     >
       <div className="container">
         <Link className="navbar-brand" to="/">
-          {config.siteTitle}
+          <img className="logo" src={logo} alt="logo" />
         </Link>
         <button
           onClick={() => setOpenMenu(() => !openMenu)}
