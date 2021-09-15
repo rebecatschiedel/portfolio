@@ -33,7 +33,7 @@ export default function Header() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <Link className="nav-link" to="/about">
-                About
+                About Me
               </Link>
             </li>
             <li className="nav-item">

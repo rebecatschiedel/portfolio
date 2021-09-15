@@ -34,7 +34,7 @@ const AboutPage = () => (
                 solve problems. After learning UX design I combined my previous
                 experiences with my new favorite concept, User Centered Design,
                 to empathize with the user and create a functional product. I
-                also enjoy photographing, baking, cycling and hiking.
+                also enjoy photography, baking, cycling and hiking.
               </p>
               <button className="btn2 btn-primary">
                 <a href="mailto:rebecatcmg@gmail.com">

@@ -5,8 +5,8 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SocialLinks from '../components/SocialLinks';
 
-import resume from '../assets/images/resume.jpg';
-// import download from '../../public/static/Rebeca_Guedes_Resume.pdf';
+import resume from '../assets/images/resume.png';
+import download from '../assets/images/Rebeca_Guedes_Resume.pdf';
 
 const AboutPage = () => (
   <Layout>
@@ -14,7 +14,7 @@ const AboutPage = () => (
     <header className="about">
       <div className="container d-flex h-100 align-items-center">
         <div className="mx-auto text-center">
-          <h1 className="mx-auto my-0 text-uppercase">Case Study</h1>
+          <h1 className="mx-auto my-0 text-uppercase">Resume</h1>
         </div>
       </div>
     </header>
@@ -25,7 +25,7 @@ const AboutPage = () => (
           <img className="resume mb-3 mb-lg-0" src={resume} alt="" />
         </div>
         <div className="center">
-          <a href="" download="Rebeca-Guedes-Portfolio">
+          <a href={download} download="Rebeca-Guedes-Portfolio">
             <button className="btn2 btn-primary">
               <i class="fa fa-download"></i>Download
             </button>
