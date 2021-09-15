@@ -1,4 +1,4 @@
-[https://rebecaguedes.ca/]
+https://rebecaguedes.ca/
 
 # Rebeca Guedes' Portifolio
 
