@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: "Rebeca Guedes' Portfolio", // <title>
-  manifestName: 'Grayscale',
+  manifestName: 'Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -26,5 +26,4 @@ module.exports = {
     },
   ],
   email: 'rebecatcmg@gmail.com',
-  phone: '604-499-5875',
 };
