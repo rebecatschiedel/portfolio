@@ -10,7 +10,7 @@ module.exports = {
   pathPrefix: `/portfolio`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Rebeca Guedes',
   subHeading:
-    'Dual-Class UI/UX Designer, Web Developer based in Vancouver, BC ',
+    'UI/UX Designer, with Web Development background, based in Vancouver, BC ',
 
   // social
   socialLinks: [
