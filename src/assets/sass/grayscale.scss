@@ -81,7 +81,7 @@ footer {
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: -webkit-linear-gradient(
-      fade-out(white, 0.1),
+      fade-out(white, 0.005),
       fade-out(white, 1)
     );
     -webkit-text-fill-color: transparent;
@@ -139,4 +139,9 @@ footer {
 
 .photo-padding {
   padding: 1rem;
+}
+
+.case-study-width {
+  margin: 0 auto;
+  max-width: 1000px;
 }

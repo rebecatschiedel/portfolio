@@ -26,7 +26,7 @@ const IndexPage = () => (
     <section id="projects" className="projects-section bg-light">
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
-          <div className="col-xl-8 col-lg-7">
+          <div className="col-xl-8 col-lg-7 photo-padding">
             <img className="img-fluid mb-3 mb-lg-0" src={capstone} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
@@ -42,7 +42,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-
+        <hr />
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6 center">
             <img className="img-fluid img-hackathon" src={hackathon} alt="" />
@@ -65,7 +65,7 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-
+        <hr />
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6 center">
             <img className="img-fluid img-redesign" src={redesign} alt="" />
