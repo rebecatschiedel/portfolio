@@ -28,13 +28,26 @@ const AboutPage = () => (
             <div className="featured-text text-center text-lg-left">
               <h4>Rebeca Guedes</h4>
               <p className="text-black-50 mb-0">
-                After I founded my baking company, I enjoyed a few years
-                creating products that would bring joy to my clients. When I had
-                the opportunity to learn how to code, I discovered my ability to
-                solve problems. After learning UX design I combined my previous
-                experiences with my new favorite concept, User Centered Design,
-                to empathize with the user and create a functional product. I
-                also enjoy photography, baking, cycling and hiking.
+                Hey! <br />
+                I'm Rebeca, a former cookie-company owner from Brazil.
+                <br />
+                <br />
+                On the first COVID-19 lockdown, I fell in love with coding, but
+                during the learning process I started to feel as if something
+                were missing, as if I weren't able to connect with the final
+                user of what I made.
+                <br />
+                At that point, I got in contact with UX design and it was a
+                perfect match. I truly enjoy seeing the impact of my work and
+                efforts on the lives of every single user.
+                <br />
+                Exploring different solutions while coding and designing,
+                different places while hiking, different tastes while baking and
+                different points of view while photographing are my favorite
+                activities.
+                <br />
+                <br />
+                Vancouver gives me the best environment to achieve all of that!
               </p>
               <button className="btn2 btn-primary">
                 <a href="mailto:rebecatcmg@gmail.com">
