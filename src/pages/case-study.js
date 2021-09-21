@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import caseStudy from '../assets/images/case-study.png';
+import caseStudy from '../assets/images/case-study.jpg';
 
 const AboutPage = () => (
   <Layout>
